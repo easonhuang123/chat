@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='input__background'>
+        <div class='input__pop'>
+            <p class='input__title'>请输入你的昵称 : )</p>
+            <input type="text" class='input__area'>
+            <button class='input__button'>确定</button>
+        </div>
+    </div>
+    <div class='chat'>
+        <div class='chat__body'>
+            <p>共有<span class='chat__userNumber'>0</span>人在聊天室中</p>
+        </div>
+        <input type="text" class='chat__input'>
+        <button class='chat__send'>send</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src='/js/chat.js'></script>
+</body>
+</html>
